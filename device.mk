@@ -254,6 +254,10 @@ PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
 
+# RenderScript HAL
+PRODUCT_PACKAGES += \
+    android.hardware.renderscript@1.0-impl
+
 # RIl
 PRODUCT_PACKAGES += \
     librmnetctl
