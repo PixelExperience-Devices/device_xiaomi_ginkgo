@@ -105,6 +105,9 @@ BOARD_USES_QCOM_HARDWARE := true
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := device/xiaomi/ginkgo-firmware
 
+# RIL
+ENABLE_VENDOR_RIL_SERVICE := true
+
 # Sepolicy - Common
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 
