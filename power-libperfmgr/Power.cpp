@@ -23,7 +23,7 @@
 #include <android-base/stringprintf.h>
 #include <android-base/strings.h>
 
-#include <utils/Log.h>
+#include <log/log.h>
 #include <utils/Trace.h>
 
 #include "AudioStreaming.h"
