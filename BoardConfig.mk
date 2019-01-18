@@ -63,6 +63,9 @@ BOARD_PREBUILT_DTBOIMAGE := device/xiaomi/ginkgo-kernel/dtbo.img
 # Audio
 AUDIO_FEATURE_ENABLED_COMPRESS_VOIP := false
 
+# Display
+TARGET_SCREEN_DENSITY := 440
+
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
