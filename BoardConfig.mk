@@ -99,6 +99,9 @@ BOARD_SUPPRESS_SECURE_ERASE := true
 TARGET_BOARD_PLATFORM := trinket
 TRINKET := trinket
 
+# QCOM hardware
+BOARD_USES_QCOM_HARDWARE := true
+
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := device/xiaomi/ginkgo-firmware
 
