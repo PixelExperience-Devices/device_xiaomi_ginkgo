@@ -111,5 +111,8 @@ include device/qcom/sepolicy_vndr/SEPolicy.mk
 # Sepolicy - Ginkgo
 include device/xiaomi/ginkgo-sepolicy/ginkgo-sepolicy.mk
 
+# Treble
+BOARD_VNDK_VERSION := current
+
 # Inherit from the proprietary version
 include vendor/xiaomi/ginkgo/BoardConfigVendor.mk
