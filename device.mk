@@ -115,6 +115,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     disable_configstore
 
+# Display
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.composer@2.4-impl \
+    android.hardware.graphics.composer@2.4-service \
+    android.hardware.graphics.mapper@3.0-impl-qti-display \
+    vendor.qti.hardware.display.mapper@2.0.vendor \
+    vendor.qti.hardware.display.mapper@1.1.vendor
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.3-service.clearkey
