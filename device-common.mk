@@ -2,7 +2,9 @@
 # Copyright (C) 2018-2019 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
-#
+
+# Setup dalvik vm configs
+$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_prop.mk
