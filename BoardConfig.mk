@@ -150,5 +150,7 @@ include device/xiaomi/ginkgo-sepolicy/ginkgo-sepolicy.mk
 # Treble
 BOARD_VNDK_VERSION := current
 
+PRODUCT_VENDOR_MOVE_ENABLED := true
+
 # Inherit from the proprietary version
 include vendor/xiaomi/ginkgo/BoardConfigVendor.mk
