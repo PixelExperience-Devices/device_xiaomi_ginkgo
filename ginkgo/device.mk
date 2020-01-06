@@ -15,7 +15,7 @@
 #
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/xiaomi/willow/willow-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/ginkgo/ginkgo-vendor.mk)
 
 # Inherit common device configuration
 $(call inherit-product, device/xiaomi/ginkgo/device-common.mk)

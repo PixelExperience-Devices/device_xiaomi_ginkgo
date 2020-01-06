@@ -7,7 +7,7 @@
 
 set -e
 
-DEVICE=ginkgo
+DEVICE_COMMON=ginkgo
 VENDOR=xiaomi
 
 INITIAL_COPYRIGHT_YEAR=2019
@@ -26,11 +26,12 @@ fi
 source "${HELPER}"
 
 # Initialize the helper
-setup_vendor "${DEVICE}" "${VENDOR}" "${MK_ROOT}"
+setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${MK_ROOT}" true
 
 # Copyright headers and guards
-write_headers
+write_headers "ginkgo willow"
 
+# The standard common blobs
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
 
 # Finish
