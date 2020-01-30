@@ -17,6 +17,10 @@
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/ginkgo/ginkgo-vendor.mk)
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
