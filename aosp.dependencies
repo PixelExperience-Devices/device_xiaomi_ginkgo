@@ -8,5 +8,11 @@
     "repository": "vendor_xiaomi",
     "target_path": "vendor/xiaomi",
     "branch": "ten"
+  },
+  {
+    "repository": "pshreejoy15/vendor_xiaomi_firmware",
+    "target_path": "vendor/xiaomi/firmware",
+    "branch": "ten",
+    "remote": "gitlab"
   }
 ]

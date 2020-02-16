@@ -6,6 +6,9 @@
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
+# include common firmware
+$(call inherit-product, vendor/xiaomi/firmware/firmware.mk)
+
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_prop.mk
 
