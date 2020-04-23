@@ -11,6 +11,12 @@
     "branch": "ten"
   },
   {
+    "repository": "trinket-devs/proton-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-11.0",
+    "remote": "github",
+    "branch": "master"
+  },
+  {
     "repository": "vendor_xiaomi",
     "target_path": "vendor/xiaomi",
     "branch": "ten"
