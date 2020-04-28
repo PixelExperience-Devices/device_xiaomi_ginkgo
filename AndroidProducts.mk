@@ -5,5 +5,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ginkgo/aosp_ginkgo.mk
+    $(LOCAL_DIR)/ginkgo/aosp_ginkgo.mk \
     $(LOCAL_DIR)/willow/aosp_willow.mk
