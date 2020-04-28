@@ -1,0 +1,24 @@
+[
+  {
+    "repository": "mg712702/vendor_MiuiCamera",
+    "target_path": "vendor/MiuiCamera",
+    "branch": "master",
+    "remote": "github"
+  },
+  {
+    "repository": "kernel_xiaomi_ginkgo",
+    "target_path": "kernel/xiaomi/ginkgo",
+    "branch": "ten"
+  },
+  {
+    "repository": "vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch": "ten"
+  },
+  {
+    "repository": "packages_apps_PixelLiveWallpaper",
+    "target_path": "packages/apps/PixelLiveWallpaper",
+    "branch": "ten",
+    "remote": "pixel-gitlab"
+  }
+]
