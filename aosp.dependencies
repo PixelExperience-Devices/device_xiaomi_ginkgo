@@ -1,7 +1,7 @@
 [
   {
-    "repository": "mg712702/vendor_MiuiCamera",
-    "target_path": "vendor/MiuiCamera",
+    "repository": "trinket-devs/vendor_ANXCamera",
+    "target_path": "vendor/ANXCamera",
     "branch": "master",
     "remote": "github"
   },
