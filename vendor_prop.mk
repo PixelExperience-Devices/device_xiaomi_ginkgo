@@ -97,9 +97,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.bluetooth.bluetooth_audio_hal.disabled=true \
     persist.vendor.bluetooth.modem_nv_support=true \
     persist.vendor.bt.aac_frm_ctl.enabled=true \
-    persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-aptxadaptive \
-    persist.vendor.qcom.bluetooth.enable.splita2dp=false \
-    ro.bluetooth.a2dp_offload.supported=false \
+    persist.vendor.bt.enable.splita2dp=true \
+    persist.vendor.qcom.bluetooth.enable.splita2dp=true \
     vendor.bluetooth.soc=cherokee \
     vendor.qcom.bluetooth.soc=cherokee
 
