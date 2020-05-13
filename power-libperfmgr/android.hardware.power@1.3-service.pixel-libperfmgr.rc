@@ -24,3 +24,7 @@ on property:init.svc.vendor.camera-provider-2-4=restarting && property:vendor.po
 on property:init.svc.vendor.audio-hal-2-0=restarting && property:vendor.powerhal.audio=AUDIO_LOW_LATENCY
    setprop vendor.powerhal.audio ""
    restart vendor.power-hal-1-3
+
+# restart on boot finished because wlan stats aren't loaded till late
+on property:sys.boot_completed=1
+   restart vendor.power-hal-1-3
