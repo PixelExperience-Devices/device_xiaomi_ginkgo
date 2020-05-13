@@ -22,3 +22,9 @@ ro.boot.fpsensor            u:object_r:vendor_fp_prop:s0
 # Thermal
 sys.thermal.                u:object_r:thermal_engine_prop:s0
 persist.sys.thermal.        u:object_r:thermal_engine_prop:s0
+
+# Power
+vendor.powerhal.audio                  u:object_r:power_prop:s0
+vendor.powerhal.init                   u:object_r:power_prop:s0
+vendor.powerhal.rendering              u:object_r:power_prop:s0
+vendor.powerhal.state                  u:object_r:power_prop:s0
