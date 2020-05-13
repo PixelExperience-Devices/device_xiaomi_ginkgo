@@ -1,5 +1,5 @@
 type fingerprint_data_file, data_file_type, file_type;
 type thermal_data_file, data_file_type, file_type;
 type proc_touchpanel, fs_type, proc_type;
-type debugfs_rpm, debugfs_type, fs_type;
+#type debugfs_rpm, debugfs_type, fs_type;
 type sysfs_msm_subsys, sysfs_type, fs_type;
