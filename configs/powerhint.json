@@ -578,7 +578,7 @@
       {
           "PowerHint": "AUDIO_STREAMING",
           "Node": "PMQoSCpuDmaLatency",
-          "Duration": 2000,
+          "Duration": 0,
           "Value": "44"
       },
       {
