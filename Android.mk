@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter ginkgo willow,$(TARGET_DEVICE)),)
+ifneq ($(filter ginkgo,$(TARGET_DEVICE)),)
 
 subdir_makefiles=$(call first-makefiles-under,$(LOCAL_PATH))
 $(foreach mk,$(subdir_makefiles),$(info including $(mk) ...)$(eval include $(mk)))
