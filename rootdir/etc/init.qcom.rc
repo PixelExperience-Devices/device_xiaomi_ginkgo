@@ -1095,3 +1095,17 @@ on  property:vendor.camera.cpuperf.en=1
 	write /dev/stune/foreground/schedtune.prefer_idle 1
 on  property:vendor.camera.cpuperf.en=0
 	write /dev/stune/foreground/schedtune.prefer_idle 0
+on property:vendor.post_boot.parsed=1
+
+    # Enable powersaving
+    write /sys/module/lpm_levels/parameters/sleep_disabled 0
+
+    # Enable idle state listener
+    write /sys/class/drm/card0/device/idle_encoder_mask 1
+    write /sys/class/drm/card0/device/idle_timeout_ms 100
+
+    # Disable sched stats
+    write /proc/sys/kernel/sched_schedstats 0
+
+    # Enable PowerHAL hint processing
+    setprop vendor.powerhal.init 1
