@@ -110,10 +110,15 @@ LOC_HIDL_VERSION := 4.0
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
+ODM_MANIFEST_WILLOW_FILES := $(DEVICE_PATH)/manifest_willow.xml
+ODM_MANIFEST_SKUS += willow
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_ginkgo
 TARGET_RECOVERY_DEVICE_MODULES := libinit_ginkgo
+
+# NFC
+TARGET_USES_NQ_NFC := true
 
 # Partitions - SAR/Metadata
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
