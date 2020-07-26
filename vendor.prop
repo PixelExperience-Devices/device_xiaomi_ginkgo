@@ -79,6 +79,16 @@ vendor.audio_hal.period_multiplier=3
 vendor.audio_hal.period_size=192
 vendor.voice.path.for.pcm.voip=true
 
+# ART
+dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7
+dalvik.vm.boot-dex2oat-threads=8
+dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5,6,7
+dalvik.vm.dex2oat-filter=quicken
+dalvik.vm.dex2oat-threads=8
+dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5,6,7
+dalvik.vm.image-dex2oat-filter=quicken
+dalvik.vm.image-dex2oat-threads=8
+
 # Bluetooth
 persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac
 persist.bluetooth.a2dp_offload.disabled=false
