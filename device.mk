@@ -76,7 +76,15 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    audio.bluetooth.default
+    libaudio-resampler \
+    libaudioroute \
+    libtinycompress \
+    libvolumelistener
+
+PRODUCT_PACKAGES += \
+    audio.bluetooth.default \
+    audio.r_submix.default \
+    audio.usb.default
 
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
