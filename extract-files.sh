@@ -61,6 +61,9 @@ function blob_fixup() {
         # Remove vtcamera for ginkgo
         gawk -i inplace '{ p = 1 } /<CameraModuleConfig>/{ t = $0; while (getline > 0) { t = t ORS $0; if (/ginkgo_vtcamera/) p = 0; if (/<\/CameraModuleConfig>/) break } $0 = t } p' "${2}"
         ;;
+    vendor/etc/camera/ginkgo_s5kgm1_sunny*)
+        sed -i -e 's/sunny_i/ofilm_ii/g' -e 's/sunny_india_i/ofilm_india_ii/g' "$2"
+        ;;
     esac
 }
 
