@@ -2,7 +2,7 @@
   {
     "repository":  "kernel_xiaomi_ginkgo",
     "target_path": "kernel/xiaomi/ginkgo",
-    "branch":"ten"
+    "branch":"10.0"
   },
   {
     "repository": "trinket-devs/proton-clang",
