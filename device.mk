@@ -360,6 +360,7 @@ PRODUCT_PACKAGES += \
     libwifi-hal-ctrl \
     libwifi-hal-qcom \
     libwpa_client \
+    TetheringConfigOverlay \
     WifiOverlay \
     wpa_cli \
     wpa_supplicant \
