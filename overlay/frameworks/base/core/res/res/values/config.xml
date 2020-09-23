@@ -669,6 +669,9 @@
     <!-- Whether device has a physical display cutout -->
     <bool name="config_physicalDisplayCutout">true</bool>
 
+    <!-- Whether device has a physical display cutout -->
+    <bool name="config_physicalDisplayCutoutCentered">true</bool>
+
     <!-- Does the battery LED support multiple colors?
          Used to decide if the user can change the colors -->
     <bool name="config_multiColorBatteryLed">false</bool>

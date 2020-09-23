@@ -13,12 +13,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Inherit from ginkgo device
 $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common PixelExperience stuff.
+TARGET_GAPPS_ARCH := arm64
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 $(call inherit-product, vendor/miuicamera/common/common-vendor.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_ginkgo
+PRODUCT_NAME := aosp_ginkgo
 PRODUCT_DEVICE := ginkgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8
