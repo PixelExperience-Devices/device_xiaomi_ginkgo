@@ -1,0 +1,62 @@
+[
+  {
+    "repository": "celtare21/kernel_xiaomi_ginkgo",
+    "target_path": "kernel/xiaomi/ginkgo",
+    "branch": "perf",
+    "remote": "github"
+  },
+  {
+    "repository": "vendor_xiaomi_ginkgo",
+    "target_path": "vendor/xiaomi/ginkgo",
+    "branch": "ten",
+    "remote": "pixel-devices-blobs"
+  },
+  {
+    "repository": "trinket-devs/vendor_miuicamera",
+    "target_path": "vendor/miuicamera",
+    "branch": "10.0",
+    "remote": "github"
+  },
+  {
+    "repository": "packages_apps_PixelLiveWallpaper",
+    "target_path": "packages/apps/PixelLiveWallpaper",
+    "branch": "ten",
+    "remote": "pixel-gitlab"
+  },
+  {
+    "repository":"LineageOS/android_vendor_nxp_interfaces_opensource_nfc",
+    "target_path":"vendor/nxp/opensource/interfaces/nfc",
+    "branch":"lineage-17.1",
+    "remote":"github"
+  },
+  {
+    "repository": "LineageOS/android_vendor_nxp_opensource_external_libnfc-nci",
+    "target_path": "vendor/nxp/opensource/commonsys/external/libnfc-nci",
+    "branch": "lineage-17.1",
+    "remote": "github"
+  },
+  {
+    "repository": "LineageOS/android_vendor_nxp_opensource_frameworks",
+    "target_path": "vendor/nxp/opensource/commonsys/frameworks",
+    "branch": "lineage-17.1",
+    "remote": "github"
+  },
+  {
+    "repository": "LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc",
+    "target_path": "vendor/nxp/opensource/commonsys/packages/apps/Nfc",
+    "branch": "lineage-17.1",
+    "remote": "github"
+  },
+  {
+    "repository": "LineageOS/android_vendor_nxp_opensource_halimpl",
+    "target_path": "vendor/nxp/opensource/pn5xx/halimpl",
+    "branch": "lineage-17.1-pn5xx",
+    "remote": "github"
+  },
+  {
+    "repository": "LineageOS/android_vendor_nxp_opensource_hidlimpl",
+    "target_path": "vendor/nxp/opensource/pn5xx/hidlimpl",
+    "branch": "lineage-17.1-pn5xx",
+    "remote": "github"
+  }
+]
