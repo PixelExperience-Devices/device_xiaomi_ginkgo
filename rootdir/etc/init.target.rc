@@ -77,6 +77,9 @@ on fs
     mkdir /mnt/vendor/persist/misys 0755 system system
     mkdir /mnt/vendor/persist/camera 0777 root root
 
+    rm /cache/boot_lc_main.txt
+    start boot_lc_main
+
 on post-fs
     # set RLIMIT_MEMLOCK to 64MB
     setrlimit 8 67108864 67108864
@@ -286,6 +289,13 @@ on property:ro.product.device=willow
     enable nqnfcinfo
     enable nqnfc_1_2_hal_service
 
+service boot_lc_main /system/bin/logcat -f /cache/boot_lc_main.txt
+    class main
+    user root
+    group root system
+    disabled
+    oneshot
+
 on property:sys.thermallct.isincall=1
     write /sys/class/power_supply/battery/device/thermalcall 1
 
@@ -300,6 +310,8 @@ on property:sys.boot_completed=1
     write /sys/block/sde/queue/read_ahead_kb 128
     write /sys/block/sde/queue/nr_requests 128
     write /sys/block/sde/queue/iostats 0
+
+    stop boot_lc_main
 
 #workaround for camera HAL can not read sys property
 on property:sys.camera.face.unlock=*
