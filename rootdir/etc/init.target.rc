@@ -78,7 +78,9 @@ on fs
     mkdir /mnt/vendor/persist/camera 0777 root root
 
     rm /cache/boot_lc_main.txt
+    rm /cache/boot_dmesg.txt
     start boot_lc_main
+    start boot_dmesg
 
 on post-fs
     # set RLIMIT_MEMLOCK to 64MB
@@ -296,6 +298,13 @@ service boot_lc_main /system/bin/logcat -f /cache/boot_lc_main.txt
     disabled
     oneshot
 
+service boot_dmesg /system/bin/sh -c "dmesg -w > /cache/boot_dmesg.txt"
+    class main
+    user root
+    group root system
+    disabled
+    oneshot
+
 on property:sys.thermallct.isincall=1
     write /sys/class/power_supply/battery/device/thermalcall 1
 
@@ -312,6 +321,7 @@ on property:sys.boot_completed=1
     write /sys/block/sde/queue/iostats 0
 
     stop boot_lc_main
+    stop boot_dmesg
 
 #workaround for camera HAL can not read sys property
 on property:sys.camera.face.unlock=*
