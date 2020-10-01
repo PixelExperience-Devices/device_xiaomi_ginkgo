@@ -1,6 +1,6 @@
 # Unified Device Tree for Redmi Note 8/8T (ginkgo/willow)
 
-The Redmi Note 8 (codenamed "ginkgo") is a mid-range smartphone from Xiaomi. It was announced in August 2019 and released in October 2019.
+The Redmi Note 8 (codenamed "ginkgo") is a mid-range smartphone from Xiaomi. It was announced in August 2019 and released in October 2019, At the Price of Rs. 9999 in india
 
 The Redmi Note 8T (codenamed "willow") is a mid-range smartphone from Xiaomi. Unlike Redmi Note 8, it does not have a notification LED but instead has a NFC communication module by NXP. It was announced and released in November 2019.
 
@@ -13,6 +13,7 @@ The Redmi Note 8T (codenamed "willow") is a mid-range smartphone from Xiaomi. Un
 | GPU                     | Adreno 610                                                      |
 | Memory                  | 3/4/6 GB                                                        |
 | Shipped Android Version | 9.0 (MIUI 11)                                                   |
+| Current Android Version | 9.0 (MIUI 11.0.6)                                               |
 | Storage                 | 32/64/128 GB eMMC                                               |
 | SIM                     | Dual SIM (Nano-SIM, dual stand-by)                              |
 | MicroSD                 | Up to 256 GB                                                    |
@@ -26,6 +27,8 @@ The Redmi Note 8T (codenamed "willow") is a mid-range smartphone from Xiaomi. Un
 | Front Camera            | 13 MP, f/2.0, (wide), 1/3.1", 1.12µm                            |
 | Fingerprint             | Rear-mounted                                                    |
 | Sensors                 | Accelerometer, Gyro, Proximity, Compass                         |
+| Charger Type And power  | Type C with 18 Watt Fast Charging                               |
+| Design And Build        | Glossy Design Glass body with corning Gorrila glass 3           |
 
 ## Device picture
 
