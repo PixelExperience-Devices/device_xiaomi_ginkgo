@@ -27,7 +27,8 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Soong Namespace
 PRODUCT_SOONG_NAMESPACES += \
-    device/xiaomi/ginkgo
+    device/xiaomi/ginkgo \
+    vendor/qcom/opensource/data-ipa-cfg-mgr
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
@@ -154,6 +155,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/uinput-fpc.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/uinput-fpc.idc \
     $(LOCAL_PATH)/idc/uinput-goodix.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/uinput-goodix.idc
+
+# IPACM
+PRODUCT_PACKAGES += \
+    ipacm \
+    IPACM_cfg.xml
 
 # Kernel
 LOCAL_KERNEL := device/xiaomi/ginkgo-kernel/kernel
