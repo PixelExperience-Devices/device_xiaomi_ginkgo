@@ -1,0 +1,86 @@
+[
+  {
+    "repository": "xiaomi-ginkgo/android_kernel_xiaomi_ginkgo",
+    "target_path": "kernel/xiaomi/ginkgo",
+    "branch": "main",
+    "remote": "github"
+  },
+  {
+    "repository": "xiaomi-ginkgo/android_vendor_xiaomi_ginkgo",
+    "target_path": "vendor/xiaomi/ginkgo",
+    "branch": "ten",
+    "remote": "github"
+  },
+  {
+    "repository": "xiaomi-ginkgo/android_hardware_qcom-caf_sm8150_display",
+    "target_path": "hardware/qcom-caf/sm8150/display",
+    "branch": "ten",
+    "remote": "github"
+  },
+  {
+    "repository": "xiaomi-ginkgo/android_hardware_qcom-caf_sm8150_audio",
+    "target_path": "hardware/qcom-caf/sm8150/audio",
+    "branch": "ten",
+    "remote": "github"
+  },
+  {
+    "repository": "xiaomi-ginkgo/android_hardware_qcom-caf_sm8150_media",
+    "target_path": "hardware/qcom-caf/sm8150/media",
+    "branch": "ten",
+    "remote": "github"
+  },
+  {
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-17.1",
+    "remote": "github"
+  },
+  {
+    "repository": "xiaomi-ginkgo/android_packages_resources_devicesettings-custom",
+    "target_path": "packages/resources/devicesettings-custom",
+    "branch": "main",
+    "remote": "github"
+  },
+  {
+    "repository": "trinket-devs/vendor_miuicamera",
+    "target_path": "vendor/miuicamera",
+    "branch": "10.0",
+    "remote": "github"
+  },
+  {
+    "repository":"LineageOS/android_vendor_nxp_interfaces_opensource_nfc",
+    "target_path":"vendor/nxp/opensource/interfaces/nfc",
+    "branch":"lineage-17.1",
+    "remote":"github"
+  },
+  {
+    "repository": "LineageOS/android_vendor_nxp_opensource_external_libnfc-nci",
+    "target_path": "vendor/nxp/opensource/commonsys/external/libnfc-nci",
+    "branch": "lineage-17.1",
+    "remote": "github"
+  },
+  {
+    "repository": "LineageOS/android_vendor_nxp_opensource_frameworks",
+    "target_path": "vendor/nxp/opensource/commonsys/frameworks",
+    "branch": "lineage-17.1",
+    "remote": "github"
+  },
+  {
+    "repository": "LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc",
+    "target_path": "vendor/nxp/opensource/commonsys/packages/apps/Nfc",
+    "branch": "lineage-17.1",
+    "remote": "github"
+  },
+  {
+    "repository": "LineageOS/android_vendor_nxp_opensource_halimpl",
+    "target_path": "vendor/nxp/opensource/pn5xx/halimpl",
+    "branch": "lineage-17.1-pn5xx",
+    "remote": "github"
+  },
+  {
+    "repository": "LineageOS/android_vendor_nxp_opensource_hidlimpl",
+    "target_path": "vendor/nxp/opensource/pn5xx/hidlimpl",
+    "branch": "lineage-17.1-pn5xx",
+    "remote": "github"
+  }
+]
