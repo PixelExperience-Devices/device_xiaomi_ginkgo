@@ -1,4 +1,4 @@
-# Copyright (c) 2013-2018, The Linux Foundation. All rights reserved.
+ # Copyright (c) 2013-2018, The Linux Foundation. All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are
@@ -28,7 +28,7 @@
 #
 
 on early-init
-    write /proc/sys/kernel/sched_boost 1
+    write /dev/stune/top-app/schedtune.boost 50
     symlink /data/tombstones /tombstones
 
 on init
