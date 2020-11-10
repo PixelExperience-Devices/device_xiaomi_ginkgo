@@ -113,7 +113,7 @@ public final class DiracUtils {
         }
         return PlaybackState.STATE_NONE;
     }
-    public void setEnabled(boolean enable) {
+    protected void setEnabled(boolean enable) {
         mDiracSound.setEnabled(enable);
         mDiracSound.setMusic(enable ? 1 : 0);
         if (enable) {
@@ -121,11 +121,11 @@ public final class DiracUtils {
         }
     }
 
-    public boolean isDiracEnabled() {
+    protected boolean isDiracEnabled() {
         return mDiracSound.getMusic() == 1;
     }
 
-    public void setLevel(String preset) {
+    protected void setLevel(String preset) {
         String[] level = preset.split("\\s*,\\s*");
 
         for (int band = 0; band <= level.length - 1; band++) {
@@ -143,7 +143,7 @@ public final class DiracUtils {
         return selected;
     }
 
-    public void setHeadsetType(int paramInt) {
+    protected void setHeadsetType(int paramInt) {
          mDiracSound.setHeadsetType(paramInt);
     }
 }
