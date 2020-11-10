@@ -16,7 +16,6 @@
 
 package org.lineageos.settings;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.preference.Preference;
@@ -26,7 +25,6 @@ import androidx.preference.ListPreference;
 
 import org.lineageos.settings.R;
 import org.lineageos.settings.dirac.DiracUtils;
-import org.lineageos.settings.speaker.ClearSpeakerActivity;
 
 public class DeviceSettingsFragment extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener {
@@ -34,14 +32,11 @@ public class DeviceSettingsFragment extends PreferenceFragment implements
     private static final String PREF_DIRAC = "dirac_pref";
     private static final String PREF_HEADSET = "dirac_headset_pref";
     private static final String PREF_PRESET = "dirac_preset_pref";
-    private static final String PREF_CLEAR_SPEAKER = "clear_speaker_settings";
 
     private SwitchPreference mDiracPref;
 
     private ListPreference mHeadsetPref;
     private ListPreference mPresetPref;
-
-    private Preference mClearSpeakerPref;
 
     private DiracUtils mDiracUtils;
 
@@ -64,13 +59,6 @@ public class DeviceSettingsFragment extends PreferenceFragment implements
         mPresetPref = (ListPreference) findPreference(PREF_PRESET);
         mPresetPref.setOnPreferenceChangeListener(this);
         mPresetPref.setEnabled(enhancerEnabled);
-
-        mClearSpeakerPref = (Preference) findPreference(PREF_CLEAR_SPEAKER);
-        mClearSpeakerPref.setOnPreferenceClickListener(preference -> {
-            Intent intent = new Intent(getActivity().getApplicationContext(), ClearSpeakerActivity.class);
-            startActivity(intent);
-            return true;
-        });
     }
 
     @Override
