@@ -12,6 +12,7 @@ DEVICE_PATH := device/xiaomi/ginkgo
 
 # Audio
 TARGET_PROVIDES_AUDIO_EXTNS := true
+AUDIO_FEATURE_ENABLED_INCALL_MUSIC := true
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := ginkgo,willow
