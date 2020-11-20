@@ -24,6 +24,12 @@
     "remote": "pixel-gitlab"
   },
   {
+    "repository": "ctwoon/packages_apps_GoogleCamera",
+    "target_path": "packages/apps/GoogleCamera",
+    "branch": "master",
+    "remote": "github"
+  },
+  {
     "repository":"LineageOS/android_vendor_nxp_interfaces_opensource_nfc",
     "target_path":"vendor/nxp/opensource/interfaces/nfc",
     "branch":"lineage-17.1",

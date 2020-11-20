@@ -469,3 +469,7 @@ PRODUCT_BOOT_JARS += \
 # XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
+
+# ctgcam
+PRODUCT_PACKAGES += \
+    GoogleCamera  
