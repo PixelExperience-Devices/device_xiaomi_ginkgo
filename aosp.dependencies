@@ -49,14 +49,14 @@
   },
   {
     "repository": "LineageOS/android_vendor_nxp_opensource_halimpl",
-    "target_path": "vendor/nxp/opensource/pn5xx/halimpl",
-    "branch": "lineage-17.1-pn5xx",
+    "target_path": "vendor/nxp/opensource/sn100x/halimpl",
+    "branch": "lineage-17.1-sn100x",
     "remote": "github"
   },
   {
     "repository": "LineageOS/android_vendor_nxp_opensource_hidlimpl",
-    "target_path": "vendor/nxp/opensource/pn5xx/hidlimpl",
-    "branch": "lineage-17.1-pn5xx",
+    "target_path": "vendor/nxp/opensource/sn100x/hidlimpl",
+    "branch": "lineage-17.1-sn100x",
     "remote": "github"
   }
 ]
