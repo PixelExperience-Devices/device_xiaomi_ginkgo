@@ -1,0 +1,44 @@
+[
+  {
+    "repository": "xiaomi-ginkgo/android_vendor_xiaomi_ginkgo",
+    "target_path": "vendor/xiaomi/ginkgo",
+    "branch": "eleven",
+    "remote": "github"
+  },
+  {
+    "repository":"LineageOS/android_vendor_nxp_interfaces_opensource_nfc",
+    "target_path":"vendor/nxp/opensource/interfaces/nfc",
+    "branch":"lineage-18.1",
+    "remote":"github"
+  },
+  {
+    "repository": "LineageOS/android_vendor_nxp_opensource_external_libnfc-nci",
+    "target_path": "vendor/nxp/opensource/commonsys/external/libnfc-nci",
+    "branch": "lineage-18.1",
+    "remote": "github"
+  },
+  {
+    "repository": "LineageOS/android_vendor_nxp_opensource_frameworks",
+    "target_path": "vendor/nxp/opensource/commonsys/frameworks",
+    "branch": "lineage-18.1",
+    "remote": "github"
+  },
+  {
+    "repository": "LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc",
+    "target_path": "vendor/nxp/opensource/commonsys/packages/apps/Nfc",
+    "branch": "lineage-18.1",
+    "remote": "github"
+  },
+  {
+    "repository": "LineageOS/android_vendor_nxp_opensource_halimpl",
+    "target_path": "vendor/nxp/opensource/pn5xx/halimpl",
+    "branch": "lineage-18.1-pn5xx",
+    "remote": "github"
+  },
+  {
+    "repository": "LineageOS/android_vendor_nxp_opensource_hidlimpl",
+    "target_path": "vendor/nxp/opensource/pn5xx/hidlimpl",
+    "branch": "lineage-18.1-pn5xx",
+    "remote": "github"
+  }
+]

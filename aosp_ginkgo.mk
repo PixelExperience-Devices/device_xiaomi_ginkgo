@@ -23,11 +23,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from ginkgo device
 $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 
-# Inherit some common Potato sauce
-$(call inherit-product, vendor/potato/config/common_full_phone.mk)
+# Inherit some common PixelExperience stuff
+TARGET_GAPPS_ARCH := arm64
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier
-PRODUCT_NAME := potato_ginkgo
+PRODUCT_NAME := aosp_ginkgo
 PRODUCT_DEVICE := ginkgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8
