@@ -38,10 +38,10 @@
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">
         M -135 0
-        C -100 0 -82 4 -56 47
+        C -105 0 -81 0 -56 47
         C -44 67 -23 80 0 80
         C 23 80 44 67 56 47
-        C 82 4 100 0 135 0
+        C 81 0 105 0 135 0
         Z
     </string>
 
