@@ -1537,14 +1537,6 @@ vendor/lib64/hw/sound_trigger.primary.trinket.so
 vendor/lib64/libcapiv2svacnn.so
 vendor/lib64/libcapiv2vop.so
 
-# Mlipay
-vendor/bin/mlipayd@1.1
-vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
-vendor/lib64/libmlipay@1.1.so
-vendor/lib64/libmlipay.so
-vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
-
 # NFC - from LA.UM.9.11.r1-02100-NICOBAR.0
 vendor/bin/nqnfcinfo|383844eea1225e99edf4e31bf58ed62ac38dda50
 vendor/lib/libsn100u_fw.so|987e60b447aa289402bfe120591b8ab9b5e4454e
