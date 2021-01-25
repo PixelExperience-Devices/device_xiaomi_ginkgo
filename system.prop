@@ -1,3 +1,6 @@
+# APEx
+ro.apex.updatable=true
+
 # Audio
 audio.sys.noisy.broadcast.delay=600
 audio.sys.offload.pstimeout.secs=3
