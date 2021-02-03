@@ -2,12 +2,12 @@
   {
     "repository": "device_xiaomi_trinket-common",
     "target_path": "device/xiaomi/trinket-common",
-    "branch": "eleven"
+    "branch": "eleven-wip"
   },
   {
     "repository": "vendor_xiaomi_ginkgo",
     "target_path": "vendor/xiaomi/ginkgo",
-    "branch": "eleven",
+    "branch": "eleven-wip",
     "remote": "pixel-devices-blobs"
   },
   {
