@@ -90,9 +90,6 @@ PRODUCT_PACKAGES += \
     Snap
 
 PRODUCT_PACKAGES += \
-    libmedia_jni_shim
-
-PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0 \
     android.hardware.camera.device@3.4 \
     android.hardware.camera.device@3.5 \
