@@ -196,6 +196,9 @@ vendor.pasr.activemode.enabled=true
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 
+# Privapp-permissions whitelist
+ro.control_privapp_permissions=log
+
 # RIL
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
