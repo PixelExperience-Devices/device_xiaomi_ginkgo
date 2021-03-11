@@ -154,6 +154,7 @@ debug.mdpcomp.logs=0
 debug.sf.enable_hwc_vds=0
 debug.sf.latch_unsignaled=1
 debug.sf.hw=1
+ro.config.avoid_gfx_accel=true
 persist.sys.sf.color_saturation=1.0
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
