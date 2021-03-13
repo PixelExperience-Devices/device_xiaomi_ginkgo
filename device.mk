@@ -12,10 +12,6 @@ $(call inherit-product, vendor/xiaomi/ginkgo/ginkgo-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
-PRODUCT_PACKAGES += \
-    NoCutoutOverlay \
-    NotchBarKiller
-
 # AID/fs configs
 PRODUCT_PACKAGES += \
     fs_config_files
