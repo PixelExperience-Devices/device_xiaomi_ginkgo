@@ -1,0 +1,13 @@
+[
+    {
+        "repository":   "kernel_xiaomi_ginkgo",
+        "target_path":  "kernel/xiaomi/ginkgo",
+        "branch":       "eleven"
+    },
+    {
+        "repository":   "vendor_xiaomi_ginkgo",
+        "target_path":  "vendor/xiaomi/ginkgo",
+        "branch":       "eleven",
+        "remote":       "pixel-devices-blobs"
+    }
+]
