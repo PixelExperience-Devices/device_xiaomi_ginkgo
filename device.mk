@@ -132,6 +132,10 @@ PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
 
+# RIl
+PRODUCT_PACKAGES += \
+    librmnetctl
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext
