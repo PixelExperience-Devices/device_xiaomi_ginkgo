@@ -102,5 +102,8 @@ TRINKET := trinket
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := device/xiaomi/ginkgo-firmware
 
+# Sepolicy - Common
+include device/qcom/sepolicy_vndr/SEPolicy.mk
+
 # Inherit from the proprietary version
 include vendor/xiaomi/ginkgo/BoardConfigVendor.mk
