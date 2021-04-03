@@ -105,5 +105,8 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/xiaomi/ginkgo-firmware
 # Sepolicy - Common
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 
+# Sepolicy - Ginkgo
+include device/xiaomi/ginkgo-sepolicy/ginkgo-sepolicy.mk
+
 # Inherit from the proprietary version
 include vendor/xiaomi/ginkgo/BoardConfigVendor.mk
