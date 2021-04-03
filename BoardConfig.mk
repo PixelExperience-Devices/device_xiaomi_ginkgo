@@ -58,6 +58,7 @@ BOARD_RAMDISK_OFFSET := 0x01000000
 
 # DTBO partition definitions
 BOARD_DTBOIMG_PARTITION_SIZE := 25165824
+BOARD_PREBUILT_DTBOIMAGE := device/xiaomi/ginkgo-kernel/dtbo.img
 
 # Partitions - SAR/Metadata
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true

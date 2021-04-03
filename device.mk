@@ -24,3 +24,8 @@ TARGET_SCREEN_WIDTH := 1080
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
+# Kernel
+LOCAL_KERNEL := device/xiaomi/ginkgo-kernel/kernel
+PRODUCT_COPY_FILES += \
+    $(LOCAL_KERNEL):kernel
