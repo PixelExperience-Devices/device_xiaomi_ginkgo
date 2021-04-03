@@ -99,5 +99,8 @@ BOARD_SUPPRESS_SECURE_ERASE := true
 TARGET_BOARD_PLATFORM := trinket
 TRINKET := trinket
 
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := device/xiaomi/ginkgo-firmware
+
 # Inherit from the proprietary version
 include vendor/xiaomi/ginkgo/BoardConfigVendor.mk
