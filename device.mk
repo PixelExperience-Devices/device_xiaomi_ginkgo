@@ -29,3 +29,5 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 LOCAL_KERNEL := device/xiaomi/ginkgo-kernel/kernel
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel
+
+PRODUCT_VENDOR_KERNEL_HEADERS := device/xiaomi/ginkgo-kernel/trinket/kernel-headers
