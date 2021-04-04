@@ -2,17 +2,17 @@
 af.fast_track_multiplier=1
 audio.deep_buffer.media=true
 audio.offload.min.duration.secs=30
-persist.bluetooth.a2dp_offload.disabled=false
+persist.bluetooth.a2dp_offload.disabled=true
 persist.vendor.audio.ras.enabled=false
 persist.vendor.bt.aac_frm_ctl.enabled=true
 ro.af.client_heap_size_kbyte=7168
-ro.bluetooth.a2dp_offload.supported=true
+ro.bluetooth.a2dp_offload.supported=false
 ro.vendor.audio.sdk.fluencetype=none
 ro.vendor.audio.sdk.ssr=false
 vendor.audio.adm.buffering.ms=2
 vendor.audio.dolby.ds2.enabled=false
 vendor.audio.dolby.ds2.hardbypass=false
-vendor.audio.feature.a2dp_offload.enable=true
+vendor.audio.feature.a2dp_offload.enable=false
 vendor.audio.feature.afe_proxy.enable=true
 vendor.audio.feature.anc_headset.enable=true
 vendor.audio.feature.audiozoom.enable=false
@@ -91,14 +91,12 @@ dalvik.vm.minidebuginfo=false
 
 # Bluetooth
 persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac
-persist.bluetooth.a2dp_offload.disabled=false
 persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
 persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=false
-persist.vendor.qcom.bluetooth.enable.splita2dp=true
+persist.vendor.qcom.bluetooth.enable.splita2dp=false
 persist.vendor.qcom.bluetooth.scram.enabled=true
 persist.vendor.qcom.bluetooth.soc=cherokee
 persist.vendor.qcom.bluetooth.twsp_state.enabled=false
-ro.bluetooth.a2dp_offload.supported=true
 ro.vendor.bluetooth.wipower=false
 vendor.qcom.bluetooth.soc=cherokee
 
