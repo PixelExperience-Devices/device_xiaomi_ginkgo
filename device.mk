@@ -117,6 +117,17 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
+    libdisplayconfig.qti \
+    libtinyxml \
+    libtinyxml2 \
+    libqdMetaData.vendor \
+    libvulkan \
+    vendor.display.config@2.0
+
+PRODUCT_PACKAGES += \
+    gralloc.trinket \
+    hwcomposer.trinket \
+    memtrack.trinket \
     android.hardware.graphics.composer@2.4-impl \
     android.hardware.graphics.composer@2.4-service \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
