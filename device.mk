@@ -161,6 +161,11 @@ PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
 
+# IR
+PRODUCT_PACKAGES += \
+    android.hardware.ir@1.0-impl \
+    android.hardware.ir@1.0-service
+
 # Kernel
 LOCAL_KERNEL := device/xiaomi/ginkgo-kernel/kernel
 PRODUCT_COPY_FILES += \
