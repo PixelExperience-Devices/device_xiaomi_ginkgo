@@ -227,6 +227,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     librmnetctl
 
+# Sensors
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@2.0-service.multihal
+
 # Telephony
 PRODUCT_PACKAGES += \
     qti-telephony-hidl-wrapper \
