@@ -328,6 +328,8 @@ PRODUCT_PACKAGES += \
 
 # RIl
 PRODUCT_PACKAGES += \
+    libavservices_minijail \
+    libavservices_minijail.vendor \
     librmnetctl
 
 # Sensors
