@@ -37,6 +37,10 @@ service nqnfc_2_0_hal_service /vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service
     override
     disabled
 
+
+on property:ro.boot.hwversion=*
+    setprop vendor.boot.hwversion ${ro.boot.hwversion}
+
 on property:persist.sys.device_provisioned=1
     # Use foreground cpuset for dex2oat
     setprop dalvik.vm.dex2oat-cpu-set 0,1,2,3,6,7
