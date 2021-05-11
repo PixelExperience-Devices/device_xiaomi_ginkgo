@@ -57,6 +57,11 @@ BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 
 BOARD_RAMDISK_OFFSET := 0x01000000
 
+TARGET_FORCE_PREBUILT_KERNEL := true
+
+TARGET_KERNEL_SOURCE := kernel/xiaomi/ginkgo
+TARGET_KERNEL_CONFIG := vendor/ginkgo-perf_defconfig
+
 # DTBO partition definitions
 BOARD_DTBOIMG_PARTITION_SIZE := 25165824
 BOARD_PREBUILT_DTBOIMAGE := device/xiaomi/ginkgo-kernel/dtbo.img
