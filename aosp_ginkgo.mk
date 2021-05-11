@@ -25,10 +25,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/handheld_system_ext.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
-# All components inherited here go to product image
-#
-$(call inherit-product, vendor/hentai/build/product/hentai_product.mk)
-
 #
 # All components inherited here go to vendor image
 #
@@ -39,14 +35,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_vendor.mk)
 # Set shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
-
 # Inherit from ginkgo device
 $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 
+# Inherit PixelExperience stuff
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
+# PixelExperience specifics
+TARGET_GAPPS_ARCH := arm64
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+
 # Device identifiers
-PRODUCT_NAME := hentai_ginkgo
+PRODUCT_NAME := aosp_ginkgo
 PRODUCT_DEVICE := ginkgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8
