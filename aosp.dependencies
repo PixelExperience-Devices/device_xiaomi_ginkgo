@@ -5,6 +5,11 @@
         "branch":       "eleven"
     },
     {
+        "repository":   "device_xiaomi_ginkgo-sepolicy",
+        "target_path":  "device/xiaomi/ginkgo-sepolicy",
+        "branch":       "eleven"
+    },
+    {
         "repository":   "kernel_xiaomi_ginkgo",
         "target_path":  "kernel/xiaomi/ginkgo",
         "branch":       "eleven"
