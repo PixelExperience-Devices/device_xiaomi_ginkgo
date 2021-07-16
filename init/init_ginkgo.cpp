@@ -47,9 +47,11 @@ void vendor_load_properties()
         hwversion == "18.39.0" || hwversion == "19.39.0")) {
         device = "willow";
         model = "Redmi Note 8T";
+        desc = "willow-user 10 QKQ1.200114.002 V12.0.2.0.QCXMIXM release-keys";
     } else {
         device = "ginkgo";
         model = "Redmi Note 8";
+        desc = "ginkgo-user 11 RKQ1.201004.002 V12.0.3.0.RCOCNXM release-keys";
     }
 
     // Override all partitions' props
@@ -61,6 +63,7 @@ void vendor_load_properties()
         property_override(string("ro.product.") + prop + string("device"), device);
         property_override(string("ro.product.") + prop + string("model"), model);
         property_override(string("ro.") + prop + string("build.product"), device);
+        property_override(string("ro.") + prop + string("build.description"), desc);
     }
 
     // Set hardware SKU prop
