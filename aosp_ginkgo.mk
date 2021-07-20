@@ -46,6 +46,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_USES_AOSP_RECOVERY := true
 
 # Device identifiers
 PRODUCT_NAME := aosp_ginkgo
