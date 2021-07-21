@@ -132,10 +132,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fs_config_files
 
-# Camera
-PRODUCT_PACKAGES += \
-    Camera2
-
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0 \
     android.hardware.camera.device@3.4 \
