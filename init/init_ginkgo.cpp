@@ -47,7 +47,7 @@ void vendor_load_properties()
         hwversion == "18.39.0" || hwversion == "19.39.0")) {
         device = "willow";
         model = "Redmi Note 8T";
-        desc = "willow-user 10 QKQ1.200114.002 V12.0.2.0.QCXMIXM release-keys";
+        desc = "willow_eea-user 11 RKQ1.201004.002 V12.0.2.0.RCXEUXM release-keys";
     } else {
         device = "ginkgo";
         model = "Redmi Note 8";
