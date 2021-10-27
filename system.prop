@@ -38,6 +38,9 @@ persist.vendor.ims.disableQXDMLogs=1
 # Incremental FS
 ro.incremental.enable=1
 
+# IORap
+persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+
 # NFC
 ro.se.type=HCE,UICC
 
