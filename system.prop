@@ -62,6 +62,9 @@ ro.netflix.bsp_rev=Q6125-17995-1
 # Shutdown
 ro.build.shutdown_timeout=2
 
+# RIL
+persist.sys.fflag.override.settings_provider_model=false
+
 # WFD
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
