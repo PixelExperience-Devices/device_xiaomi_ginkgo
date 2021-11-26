@@ -15,6 +15,9 @@ persist.vendor.btstack.absvolfeature=true
 persist.vendor.btstack.enable.splita2dp=false
 vendor.bluetooth.soc=cherokee
 
+# Camera
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
+
 # Charger
 ro.charger.enable_suspend=true
 
