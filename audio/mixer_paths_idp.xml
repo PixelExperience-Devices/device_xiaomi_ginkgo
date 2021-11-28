@@ -2780,12 +2780,6 @@
         <ctl name="RX_CDC_DMA_RX_0 Channels" value="Two" />
         <ctl name="RX INT0_1 MIX1 INP0" value="RX0" />
         <ctl name="RX INT1_1 MIX1 INP0" value="RX1" />
-        <!-- by NLSound Team -->
-        <ctl name="RX_RX0 Digital Volume" value="102" />
-        <ctl name="RX_RX1 Digital Volume" value="102" />
-        <ctl name="RX0 Digital Volume" value="102" />
-        <ctl name="RX1 Digital Volume" value="102" />
-         <!-- by NLSound Team -->
         <ctl name="RX INT0 DEM MUX" value="CLSH_DSM_OUT" />
         <ctl name="RX INT1 DEM MUX" value="CLSH_DSM_OUT" />
         <ctl name="HPHL_RDAC Switch" value="1" />
