@@ -249,6 +249,8 @@ ro.surface_flinger.protected_contents=true
 ro.surface_flinger.use_color_management=1
 
 # System
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=SM6125
 persist.sys.binary_xml=false
 
 # Time
