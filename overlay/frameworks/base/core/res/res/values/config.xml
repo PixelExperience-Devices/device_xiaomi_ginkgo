@@ -819,4 +819,7 @@
         <item>org.lineageos.aperture</item>
         <item>org.lineageos.aperture.dev</item>
     </string-array>
+
+    <!-- Determines whether the shell features all run on another thread. -->
+    <bool name="config_enableShellMainThread">true</bool>
 </resources>
