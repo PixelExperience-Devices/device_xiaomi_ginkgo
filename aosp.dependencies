@@ -2,22 +2,22 @@
     {
         "repository":   "device_xiaomi_ginkgo-kernel",
         "target_path":  "device/xiaomi/ginkgo-kernel",
-        "branch":       "twelve"
+        "branch":       "thirteen"
     },
     {
         "repository":   "device_xiaomi_ginkgo-sepolicy",
         "target_path":  "device/xiaomi/ginkgo-sepolicy",
-        "branch":       "twelve"
+        "branch":       "thirteen"
     },
     {
         "repository":   "kernel_xiaomi_ginkgo",
         "target_path":  "kernel/xiaomi/ginkgo",
-        "branch":       "twelve"
+        "branch":       "thirteen"
     },
     {
         "repository":   "vendor_xiaomi_ginkgo",
         "target_path":  "vendor/xiaomi/ginkgo",
-        "branch":       "twelve",
+        "branch":       "thirteen",
         "remote":       "pixel-devices-blobs"
     }
 ]
