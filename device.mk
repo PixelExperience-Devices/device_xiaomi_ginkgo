@@ -141,7 +141,8 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5 \
     vendor.qti.hardware.camera.device@1.0 \
     vendor.qti.hardware.camera.device@1.0.vendor \
-    libdng_sdk.vendor
+    libdng_sdk.vendor \
+    libwatermark_shim
 
 # Component overrides
 PRODUCT_COPY_FILES += \
