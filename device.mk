@@ -33,8 +33,7 @@ TARGET_SCREEN_WIDTH := 1080
 # Soong Namespace
 PRODUCT_SOONG_NAMESPACES += \
     device/xiaomi/ginkgo \
-    vendor/qcom/opensource/commonsys-intf/display \
-    vendor/qcom/opensource/data-ipa-cfg-mgr
+    vendor/qcom/opensource/commonsys-intf/display
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
