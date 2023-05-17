@@ -151,6 +151,7 @@ ro.vendor.use_data_netmgrd=true
 # Display
 debug.egl.hw=0
 debug.mdpcomp.logs=0
+debug.sf.disable_backpressure=1
 debug.sf.disable_client_composition_cache=1
 debug.sf.layer_caching_active_layer_timeout_ms=1000
 debug.sf.enable_hwc_vds=0
